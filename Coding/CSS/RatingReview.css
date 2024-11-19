@@ -1,0 +1,102 @@
+/* File: gaya.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  .produk img{
+    width:3000px;
+    height:auto;
+  }
+  .pencarian input {
+    padding: 5px;
+  }
+  .tambah-keranjang{
+    background-color: #8E7AB5;
+    color:#FFFFFF;
+    font-size: 16px;
+  }
+  .keranjang span {
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .detail-produk {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .gambar-produk img {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  .ulasan-pelanggan button{
+    background-color: #8E7AB5;
+    color: #FFFFFF
+  }
+  .info-produk {
+    max-width: 400px;
+  }
+  
+  .harga {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .harga-asli {
+    text-decoration: line-through;
+    color: red;
+  }
+  
+  .rating {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .ulasan-pelanggan {
+    margin-top: 30px;
+  }
+  
+  .ulasan li {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  .produk-terkait {
+    margin-top: 30px;
+  }
+  
+  .daftar-produk {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .produk img {
+    max-width: 40%;
+    border-radius: 10px;
+  }
+  
+  .produk p {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  

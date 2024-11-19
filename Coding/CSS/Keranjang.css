@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    background: #f7f7f7;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-nav nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+  }
+  
+  .cart {
+    padding: 20px;
+  }
+  
+  .cart h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .product-name {
+    display: flex; /* Menggunakan flexbox */
+    align-items: center; /* Gambar dan teks sejajar secara vertikal */
+  }
+  
+  /* Gaya untuk gambar */
+  .product-name img {
+    width: 100px; /* Atur lebar gambar */
+    height: auto; /* Proporsi gambar tetap */
+    border-radius: 8px; /* Opsional: Sudut tumpul */
+    margin-right: 10px; /* Jarak gambar dengan teks */
+  }
+  
+  /* Gaya untuk teks */
+  .product-name p {
+    margin: 0; /* Hilangkan margin bawaan pada paragraf */
+    font-size: 0.9em; /* Ukuran teks */
+    color: #333; /* Warna teks */
+  }
+  .product-image {
+    width: 100px; /* Atur lebar gambar */
+    height: auto; /* Menjaga proporsi gambar */
+    border-radius: 8px; /* Opsional: Memberikan sudut tumpul */
+    margin-right: 10px; /* Memberi jarak dengan teks */
+  }
+  td img {
+    width: 100px; /* Atur lebar gambar */
+    height: auto; /* Menjaga proporsi gambar */
+    border-radius: 8px; /* Opsional: Memberikan sudut tumpul */
+    margin-right: 10px; /* Memberi jarak dengan teks */
+  }
+  
+  .cart-table {
+    width: 65%;
+    border-collapse: collapse;
+  }
+  
+  .cart-table th, .cart-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .cart-summary {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+  }
+  
+  .checkout-btn {
+    background-color: #f28b8b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+  }
+  
